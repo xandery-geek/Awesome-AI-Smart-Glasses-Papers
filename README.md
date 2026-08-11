@@ -1,11 +1,13 @@
 # Awesome AI Smart Glasses Papers
 
-A curated reading list for **AI Smart Glasses**, organized according to the taxonomy in *A Survey on AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization*.
+A curated reading list for **AI Smart Glasses**, organized according to the taxonomy in our survey paper **A Survey on AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization**. It collects papers on smart glasses and closely related egocentric wearable devices that support situated sensing, context-aware understanding, multimodal interaction, and real-world assistance.
 
 <div align="center">
+
 [![Paper PDF](https://img.shields.io/badge/Paper-PDF-b31b1b.svg?logo=adobeacrobatreader&logoColor=white)](./A%20Survey%20on%20AI%20Smart%20Glasses%20for%20Wearable%20Intelligence.pdf) [![Paper Preprint](https://img.shields.io/badge/Paper-Preprint-b31b1b.svg?logo=arXiv)](https://www.preprints.org/manuscript/202608.0648) [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](LICENSE) [![GitHub Stars](https://img.shields.io/github/stars/xandery-geek/Awesome-AI-Smart-Glasses-Papers?style=flat&logo=github&color=lightblue)](https://github.com/xandery-geek/Awesome-AI-Smart-Glasses-Papers)
 
-This repository focuses on smart glasses and closely related egocentric wearable devices that contribute to situated sensing, understanding, interaction, and assistance. | 🌟 Star this repository if you find it useful.
+🌟 Star this repository if you find it useful.
+
 </div>
 
 <a id="news"></a>
@@ -77,7 +79,7 @@ Following the survey, this list is organized around four connected layers:
 ## 🕶️ Hardware Foundation
 
 <div align="center">
-<img src="assets/hardware-history.png" width="90%" alt="Evolution of smart glasses"/>
+<img src="assets/hardware-history.png" width="100%" alt="Evolution of smart glasses"/>
 <br>
 <em><b>Section figure.</b> Evolution of representative smart glasses and smart-eyewear systems.</em>
 </div>
@@ -88,7 +90,7 @@ Following the survey, this list is organized around four connected layers:
 <em><b>Section figure.</b> Hardware capability stack for AI smart glasses.</em>
 </div> -->
 
-Representative hardware specifications are summarized below. A dash (`-`) indicates that the information is not disclosed in public materials; `Snapdragon AR1` and `AR1` both refer to the Qualcomm Snapdragon AR1 Gen1 chipset; `mic` and `spk` denote microphone and speaker, respectively.
+The table below offers a quick comparison of representative AI smart-glasses products across sensing, inference, interaction, battery, and storage capabilities. `-` means the specification is not publicly disclosed; `AR1` refers to Qualcomm Snapdragon AR1 Gen1; `mic` and `spk` denote microphone and speaker.
 
 | Product | Release Time | Camera Resolution | Motion Stabilization | Spatial Awareness | Local Inference | Cloud AI | Audio | Display | Touch Control | Battery | Storage |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
