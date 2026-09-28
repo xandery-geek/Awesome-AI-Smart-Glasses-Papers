@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# IDE and editor directories
+.codex/
+.claude/
+.vscode/
+
+# Script caches
+.cache/

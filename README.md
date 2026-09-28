@@ -1,10 +1,10 @@
 # Awesome AI Smart Glasses Papers
 
-A curated reading list for **AI Smart Glasses**, organized according to the taxonomy in our survey paper **A Survey on AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization**. It collects papers on smart glasses and closely related egocentric wearable devices that support situated sensing, context-aware understanding, multimodal interaction, and real-world assistance.
+A curated reading list for **AI Smart Glasses**, organized according to the taxonomy in our survey paper **AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization**. It collects papers on smart glasses and closely related egocentric wearable devices that support situated sensing, context-aware understanding, multimodal interaction, and real-world assistance.
 
 <div align="center">
 
-[![Paper PDF](https://img.shields.io/badge/Paper-PDF-b31b1b.svg?logo=adobeacrobatreader&logoColor=white)](./A%20Survey%20on%20AI%20Smart%20Glasses%20for%20Wearable%20Intelligence.pdf) [![Paper Preprint](https://img.shields.io/badge/Paper-Preprint-b31b1b.svg?logo=arXiv)](https://www.preprints.org/manuscript/202608.0648) [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](LICENSE) [![GitHub Stars](https://img.shields.io/github/stars/xandery-geek/Awesome-AI-Smart-Glasses-Papers?style=flat&logo=github&color=lightblue)](https://github.com/xandery-geek/Awesome-AI-Smart-Glasses-Papers)
+[![Paper PDF](https://img.shields.io/badge/Paper-PDF-b31b1b.svg?logo=adobeacrobatreader&logoColor=white)](./AI%20Smart%20Glasses%20for%20Wearable%20Intelligence.pdf) [![Paper Preprint](https://img.shields.io/badge/Paper-Preprint-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2609.19793) [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](LICENSE) [![GitHub Stars](https://img.shields.io/github/stars/xandery-geek/Awesome-AI-Smart-Glasses-Papers?style=flat&logo=github&color=lightblue)](https://github.com/xandery-geek/Awesome-AI-Smart-Glasses-Papers)
 
 🌟 Star this repository if you find it useful.
 
@@ -14,7 +14,8 @@ A curated reading list for **AI Smart Glasses**, organized according to the taxo
 
 ## 🚀 News
 
-- `[2026/08]` Our paper [A Survey on AI Smart Glasses for Wearable Intelligence](https://www.preprints.org/manuscript/202608.0648) is avaliable at the Preprints.org!
+- `[2026/09]` Our paper [AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization](https://arxiv.org/abs/2609.19793) is available on arXiv.
+<!-- - `[2026/08]` Our paper [A Survey on AI Smart Glasses for Wearable Intelligence](https://www.preprints.org/manuscript/202608.0648) is available on Preprints.org. -->
 
 ## 📂 Table of Contents
 
@@ -30,7 +31,7 @@ A curated reading list for **AI Smart Glasses**, organized according to the taxo
       - [Conceptual Perception](#conceptual-perception)
       - [Social Perception](#social-perception)
     - [Contextual Intelligence](#contextual-intelligence)
-      - [Personal Context](#personal-context)
+      - [Personalized Context](#personalized-context)
       - [Environmental Context](#environmental-context)
       - [Temporal Context](#temporal-context)
       - [Knowledge Context](#knowledge-context)
@@ -104,6 +105,8 @@ The table below offers a quick comparison of representative AI smart-glasses pro
 | [Qwen G1](https://www.mwcbarcelona.com/exhibitors/36083-qwen-glasses/products/4898-qwen-glasses-g1) | 2026.03 | 12 MP | Yes | - | AR1 + BES2800 | Qwen | 6-mic, 2-spk | No | Yes | 272 mAh | 64 GB |
 | [Huawei AI Glasses](https://consumer.huawei.com/cn/audio/ai-glasses) | 2026.04 | 12 MP | Yes | - | Self-developed Chip | PanguLM | 3-mic, 2-spk | No | Yes | 252 mAh | 64 GB |
 | [RayNeo V4](https://rayneo.cn/v4.html) | 2026.05 | 9 MP | Yes | - | AR1 + BES2800BP | Qwen | 4-mic, 2-spk | No | Yes | 250 mAh | 64 GB |
+| Snap SPECS | 2026.06 | - | Yes | Yes | Dual Snapdragon Chips | - | 6-mic, 2-spk | Binocular | Yes | - | - |
+| VITURE Helix | 2026.06 | 12 MP | - | - | - | NVIDIA XR AI | 4-mic, 2-spk | No | Yes | - | - |
 
 
 <!-- - `[IMWUT 2021]` MemX: An Attention-Aware Smart Eyewear System for Personalized Moment Auto-Capture. `System`
@@ -157,9 +160,10 @@ The table below offers a quick comparison of representative AI smart-glasses pro
 
 #### Conceptual Perception
 
+- `[CVPR 2022]` Ego4D: Around the World in 3,000 Hours of Egocentric Video. `Dataset`
 - `[NeurIPS 2022]` Egocentric Video-Language Pretraining. `Video-Language`
 - `[ICCV 2023]` EgoVLPv2: Egocentric Video-Language Pre-Training with Fusion in the Backbone. `Video-Language`
-- `[IJCV 2022]` EPIC-KITCHENS-100: Collection, Pipeline and Challenges for Egocentric Action Understanding. `Dataset`
+- `[IJCV 2022]` Rescaling Egocentric Vision: Collection, Pipeline and Challenges for EPIC-KITCHENS-100. `Dataset`
 - `[CVPR 2022]` Assembly101: A Large-Scale Multi-View Video Dataset for Understanding Procedural Activities. `Dataset`
 - `[TNNLS 2023]` ActionCLIP: Adapting Language-Image Pretrained Models for Video Action Recognition. `Action Understanding`
 - `[NeurIPS 2023]` Opening the Vocabulary of Egocentric Actions. `Open-Vocabulary`
@@ -187,7 +191,7 @@ The table below offers a quick comparison of representative AI smart-glasses pro
 <em><b>Section figure.</b> Contextual intelligence for personalized and situated wearable assistance.</em>
 </div>
 
-#### Personal Context
+#### Personalized Context
 
 - `[NeurIPS 2024]` Yo'LLaVA: Your Personalized Language and Vision Assistant. `Personalization`
 - `[ECCV 2024]` AMEGO: Active Memory from Long Egocentric Videos. `Memory`
@@ -244,16 +248,20 @@ The table below offers a quick comparison of representative AI smart-glasses pro
 - `[CHI 2024]` GazePointAR: A Context-Aware Multimodal Voice Assistant for Pronoun Disambiguation in Wearable Augmented Reality. `Reference Grounding`
 - `[IUI 2026]` Gazeify Then Voiceify: Physical Object Referencing Through Gaze and Voice Interaction with Displayless Smart Glasses. `Reference Grounding`
 - `[CHI 2025]` Persistent Assistant: Seamless Everyday AI Interactions via Intent Grounding and Multimodal Feedback. `Intent Grounding`
-- `[CHI 2025]` AiGet: Transforming Everyday Moments into Hidden Knowledge Discovery with AI Assistance on Smart Glasses. `Proactivity`
+- `[NeurIPS 2026]` ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions. `Assistance-Need Inference`
 - `[NeurIPS 2026]` WAGIBench: Benchmarking Egocentric Multimodal Goal Inference for Assistive Wearable Agents. `Benchmark`
+- `[arXiv 2025]` AI for Service: Proactive Assistance with AI Glasses. `Intervention Reasoning`
 - `[arXiv 2026]` Intention-Aware Semantic Agent Communications for AI Glasses. `Communication`
 
 #### Task Planning
 
-- `[ICLR 2025]` MMEgo: Towards Building Egocentric Multimodal LLMs for Video QA. `Egocentric MLLM`
+- `[ICML Workshop 2024]` EPD: Long-term Memory Extraction, Context-aware Planning and Multi-iteration Decision @ EgoPlan Challenge ICML 2024. `Working State`
+- `[ICCV 2023]` Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents. `Working State`
+- `[arXiv 2026]` MEMORA: Embodied Action Memory from Egocentric Videos for Reasoning and Planning. `Memory` `Planning`
+- `[ICCV 2023]` Pretrained Language Models as Visual Planners for Human Assistance. `Visual Planning`
+- `[WACV 2024]` Leveraging Next-Active Objects for Context-Aware Anticipation in Egocentric Videos. `Action Anticipation`
 - `[IJCV 2026]` EgoPlan-Bench: Benchmarking Multimodal Large Language Models for Human-Level Planning. `Benchmark`
 - `[IJCV 2026]` EgoPlan-Bench2: A Benchmark for Multimodal Large Language Model Planning in Real-World Scenarios. `Benchmark`
-- `[arXiv 2025]` EgoToM: Benchmarking Theory of Mind Reasoning from Egocentric Videos. `Benchmark`
 - `[CVPR 2026]` LifeEval: A Multimodal Benchmark for Assistive AI in Egocentric Daily Life Tasks. `Benchmark`
 - `[CVPR 2026]` SUPERGLASSES: Benchmarking Vision Language Models as Intelligent Agents for AI Smart Glasses. `Benchmark`
 - `[WWW 2026]` Egocentric Co-Pilot: Web-Native Smart-Glasses Agents for Assistive Egocentric AI. `Agent`
@@ -263,10 +271,13 @@ The table below offers a quick comparison of representative AI smart-glasses pro
 
 - `[NeurIPS 2026]` WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-World Scenarios. `Benchmark`
 - `[arXiv 2026]` WearVox: An Egocentric Multichannel Voice Assistant Benchmark for Wearables. `Benchmark`
+- `[Findings of ACL 2025]` Grounding Task Assistance with Multimodal Cues from a Single Demonstration. `Task Assistance`
 - `[CVPR 2026]` Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos. `Benchmark`
 - `[WWW 2026]` Egocentric Co-Pilot: Web-Native Smart-Glasses Agents for Assistive Egocentric AI. `Agent`
 - `[arXiv 2026]` VisionClaw: Always-On AI Agents Through Smart Glasses. `Agent`
 - `[CVPR 2026]` SUPERGLASSES: Benchmarking Vision Language Models as Intelligent Agents for AI Smart Glasses. `Agent`
+- `[CHI 2025]` Satori: Towards Proactive AR Assistant with Belief-Desire-Intention User Modeling. `Situated Guidance`
+- `[CHI 2026]` Seeing Eye to Eye: Enabling Cognitive Alignment Through Shared First-Person Perspective in Human-AI Collaboration. `Situated Feedback`
 
 ## 🖥️ Interaction Design
 
@@ -329,9 +340,6 @@ The table below offers a quick comparison of representative AI smart-glasses pro
 - `[JMIR Formative Research 2025]` Social Acceptance of Smart Glasses in Health Care: Model Evaluation Study of Anticipated Adoption and Social Interaction. `Acceptance`
 - `[JAMDA 2025]` Smart Glasses for Older Adults With Cognitive Impairment: A Scoping Review. `Older Adults`
 - `[JMIR Aging 2026]` AI-Enabled Smart Glasses for Active Aging: Scoping Review. `Active Aging`
-- `[BioData Mining 2025]` Development of an AI-Powered AR Glasses System for Real-Time First Aid Guidance in Emergency Situations. `First Aid`
-- `[JMIR 2019]` Technical Support by Smart Glasses During a Mass Casualty Incident. `Triage`
-- `[HICSS 2018]` Usability and Reliability of Smart Glasses for Secondary Triage During Mass Casualty Incidents. `Triage`
 
 ### Accessibility
 
@@ -346,9 +354,6 @@ The table below offers a quick comparison of representative AI smart-glasses pro
 - `[Machines 2020]` MARMA: A Mobile Augmented Reality Maintenance Assistant for Fast-Track Repair Procedures in the Context of Industry 4.0. `Maintenance`
 - `[Virtual Reality 2020]` Evaluating the Effectiveness of Learning Design with Mixed Reality in Higher Education. `Education`
 - `[Smart Learning Environments 2023]` A Critical Evaluation, Challenges, and Future Perspectives of Using AI and Emerging Technologies in Smart Classrooms. `Smart Classroom`
-- `[ACL 2025]` Uni-Retrieval: A Multi-Style Retrieval Framework for STEM Education. `Education`
-- `[Procedia CIRP 2020]` Augmented Reality Smart Glasses for Operators in Production: Survey of Relevant Categories for Supporting Operators. `Production`
-- `[Sensors 2023]` A Neurophysiological Evaluation of Cognitive Load During Augmented Reality Interactions in Industrial Maintenance and Assembly Tasks. `Cognitive Load`
 
 ### Daily Life Assistance
 
@@ -373,10 +378,6 @@ The table below offers a quick comparison of representative AI smart-glasses pro
 - `[Aquacultural Engineering 2023]` Smart Headset, Computer Vision and Machine Learning for Efficient Prawn Farm Management. `Aquaculture`
 - `[Animals 2019]` Exploring Smart Glasses for Augmented Reality: A Valuable and Integrative Tool in Precision Livestock Farming. `Livestock`
 - `[Applied Sciences 2020]` Performance and Usability of Smartglasses for Augmented Reality in Precision Livestock Farming Operations. `Livestock`
-- `[Smart Agricultural Technology 2025]` Smart Glasses in the Chicken Barn: Enhancing Animal Welfare Through Mixed Reality. `Agriculture`
-- `[Procedia Computer Science 2025]` An Innovative Methodology for Enabling Predictive Maintenance of Ship Systems Based on Industry 4.0 Technologies. `Maintenance`
-- `[Applied Sciences 2025]` Augmented Reality's Impact in Industry: A Scoping Review. `Survey`
-- `[IJEAP 2025]` Applications of Augmented Reality in Industrial Manufacturing in the Era of Industry 5.0. `Survey`
 
 <a id="future-directions"></a>
 
@@ -395,15 +396,11 @@ The survey highlights five cross-cutting directions for future AI smart glasses:
 If you find this survey and repository useful for your research, please consider citing:
 
 ```bibtex
-@article{yuan2026aismartglasses,
-	doi = {10.20944/preprints202608.0648.v1},
-	url = {https://doi.org/10.20944/preprints202608.0648.v1},
-	year = 2026,
-	month = {August},
-	publisher = {Preprints},
-	author = {Xu Yuan and Yi Wang and Zhuohang Jiang and Haohao Qu and Yujuan Ding and Shanru Lin and Guoliang Xing and Hongxia Yang and Jiannong Cao and Qing Li and Wenqi Fan},
-	title = {A Survey on AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization},
-	journal = {Preprints}
+@article{yuan2026ai,
+  title={AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization},
+  author={Yuan, Xu and Wang, Yi and Jiang, Zhuohang and Qu, Haohao and Ding, Yujuan and Lin, Shanru and Xing, Guoliang and Yang, Hongxia and Cao, Jiannong and Li, Qing and others},
+  journal={arXiv preprint arXiv:2609.19793},
+  year={2026}
 }
 ```
 
