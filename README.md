@@ -91,6 +91,8 @@ Following the survey, this list is organized around four connected layers:
 <em><b>Section figure.</b> Hardware capability stack for AI smart glasses.</em>
 </div> -->
 
+<br>
+
 The table below offers a quick comparison of representative AI smart-glasses products across sensing, inference, interaction, battery, and storage capabilities. `-` means the specification is not publicly disclosed; `AR1` refers to Qualcomm Snapdragon AR1 Gen1; `mic` and `spk` denote microphone and speaker.
 
 | Product | Release Time | Camera Resolution | Motion Stabilization | Spatial Awareness | Local Inference | Cloud AI | Audio | Display | Touch Control | Battery | Storage |
@@ -105,8 +107,8 @@ The table below offers a quick comparison of representative AI smart-glasses pro
 | [Qwen G1](https://www.mwcbarcelona.com/exhibitors/36083-qwen-glasses/products/4898-qwen-glasses-g1) | 2026.03 | 12 MP | Yes | - | AR1 + BES2800 | Qwen | 6-mic, 2-spk | No | Yes | 272 mAh | 64 GB |
 | [Huawei AI Glasses](https://consumer.huawei.com/cn/audio/ai-glasses) | 2026.04 | 12 MP | Yes | - | Self-developed Chip | PanguLM | 3-mic, 2-spk | No | Yes | 252 mAh | 64 GB |
 | [RayNeo V4](https://rayneo.cn/v4.html) | 2026.05 | 9 MP | Yes | - | AR1 + BES2800BP | Qwen | 4-mic, 2-spk | No | Yes | 250 mAh | 64 GB |
-| Snap SPECS | 2026.06 | - | Yes | Yes | Dual Snapdragon Chips | - | 6-mic, 2-spk | Binocular | Yes | - | - |
-| VITURE Helix | 2026.06 | 12 MP | - | - | - | NVIDIA XR AI | 4-mic, 2-spk | No | Yes | - | - |
+| [Snap SPECS](https://www.specs.com/smart-glasses/specs-27) | 2026.06 | - | Yes | Yes | Dual Snapdragon Chips | - | 6-mic, 2-spk | Binocular | Yes | - | - |
+| [VITURE Helix](https://www.viture.com/helix) | 2026.06 | 12 MP | - | - | - | NVIDIA XR AI | 4-mic, 2-spk | No | Yes | - | - |
 
 
 <!-- - `[IMWUT 2021]` MemX: An Attention-Aware Smart Eyewear System for Personalized Moment Auto-Capture. `System`
